@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [main, master, develop, 'frontend-mjtr', 'frontend-iniciales']
+    branches: [main, master, develop, 'frontend-mjtr']
   pull_request:
     branches: [main, master, develop]
 
