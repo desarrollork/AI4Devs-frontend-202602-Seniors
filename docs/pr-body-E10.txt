@@ -1,0 +1,13 @@
+**E10 — Vista detalle de posición (Kanban)** — MJTR  
+**Alumno:** Manuel Jesús Torralbo Rodríguez
+
+- Lista `/positions` → detalle `/positions/:id` con título, volver atrás, columnas por fase del flujo, tarjetas con nombre y puntuación media.
+- Arrastrar tarjetas entre columnas + actualización optimista y rollback si falla la API.
+- Responsive: columnas apiladas en móvil (`flex-column` / `flex-md-row`).
+- Tests: `cd frontend && npm run test:ci`.
+- Prompts: `prompts/prompts-iniciales.md`, `prompts/prompts.md`.
+
+**APIs (backend del repo):** `GET /position/:id/interviewflow`, `GET /position/:id/candidates`, `PUT /candidates/:id` — no coinciden con el PDF del enunciado (`/positions` plural, `/stage`); el cliente usa las rutas reales de Express.
+
+**Validación:** `bash scripts/validate-local.sh`  
+Ficha: `docs/ENTREGA-E10-MJTR.md`
