@@ -1,0 +1,5 @@
+- [ ] Tests + builds según `TESTING_STRATEGY.md`
+- [ ] Script `scripts/validate-local.sh` o CI equivalente
+- [ ] Migraciones y backups **TODO** si BD producción
+- [ ] Variables entorno producción revisadas **TODO**
+- [ ] Notas de versión / comunicación **TODO**

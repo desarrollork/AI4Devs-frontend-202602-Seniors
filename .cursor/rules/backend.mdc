@@ -1,0 +1,31 @@
+---
+description: Backend Express — capas y API.
+globs: ["backend/**/*"]
+alwaysApply: false
+---
+
+# Backend
+
+## Propósito
+
+API predecible y segura.
+
+## Cuándo aplica
+
+`backend/src/**`.
+
+## Instrucciones
+
+- Validar entrada; errores con mensajes controlados; logs sin datos sensibles.  
+- Separar controller / servicio / acceso datos según estructura existente.  
+- Contratos alineados con `api-spec.yaml` cuando aplique.
+
+## Prohibiciones
+
+- Endpoints nuevos sin SPEC.  
+- Excepciones sin manejo que filtren stack en producción.
+
+## Checklist
+
+- [ ] Validación entrada  
+- [ ] Códigos HTTP coherentes  

@@ -1,0 +1,30 @@
+---
+description: Commits y PRs ordenados.
+globs: ["**/*"]
+alwaysApply: false
+---
+
+# Git workflow
+
+## Propósito
+
+Historia legible y revisable.
+
+## Cuándo aplica
+
+Control de versiones del proyecto.
+
+## Instrucciones
+
+- Commits pequeños y enfocados; no mezclar temas.  
+- PR: descripción, riesgos, cómo probar.  
+- El agente **no** hace commits automáticos salvo orden explícita del usuario.
+
+## Prohibiciones
+
+- Commit masivo no relacionado con la tarea.
+
+## Checklist
+
+- [ ] Diff revisable  
+- [ ] Mensaje alineado al cambio  

@@ -321,4 +321,36 @@ POST http://localhost:3010/candidates
 }
 ```
 
+---
 
+## AI Development Workflow
+
+Spec-driven development: no product implementation without a clear SPEC/task. See:
+
+- [docs/AI_WORKFLOW.md](docs/AI_WORKFLOW.md)
+- [docs/PROJECT_SPEC.md](docs/PROJECT_SPEC.md)
+- [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
+- [docs/TASKS.md](docs/TASKS.md)
+- [docs/TESTING_STRATEGY.md](docs/TESTING_STRATEGY.md)
+- [AGENTS.md](AGENTS.md)
+- [.ai/PROJECT_AI_SETUP_REPORT.md](.ai/PROJECT_AI_SETUP_REPORT.md)
+
+**Commands (from this repo root):** `cd backend && npm run build && npm test` · `cd frontend && CI=true npm run build` · `cd frontend && npm test` · `bash scripts/validate-local.sh` (or mirror `.github/workflows/ci.yml`).
+
+---
+
+## Flujo de desarrollo con IA (ES)
+
+- [docs/AI_WORKFLOW.md](docs/AI_WORKFLOW.md) — Composer, SPEC y tareas
+- [AGENTS.md](AGENTS.md) — rol del agente y límites
+- [.ai/PROJECT_AI_SETUP_REPORT.md](.ai/PROJECT_AI_SETUP_REPORT.md)
+- Comandos: build/test backend, `CI=true npm run build` en frontend, `scripts/validate-local.sh`
+
+---
+
+## Entrega ejercicio E10 (MJTR)
+
+- **Rama:** `frontend-mjtr` (iniciales Manuel Jesús Torralbo Rodríguez).
+- **Pull Request:** [PR #1](https://github.com/desarrollork/AI4Devs-frontend-202602-Seniors/pull/1) — detalle y texto sugerido para la descripción: [docs/ENTREGA-E10-MJTR.md](docs/ENTREGA-E10-MJTR.md)
+- **Abrir / actualizar PR en GitHub:** [compare main...frontend-mjtr](https://github.com/desarrollork/AI4Devs-frontend-202602-Seniors/compare/main...frontend-mjtr?expand=1)
+- **Incluye:** código en `frontend/`; `prompts/prompts-iniciales.md` y `prompts/prompts.md` (réplica en `frontend/prompts/`).

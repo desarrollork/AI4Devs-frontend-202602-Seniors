@@ -1,0 +1,5 @@
+- [ ] SPEC/tarea escrita y revisada (sin ambigüedad crítica abierta)
+- [ ] Archivos afectados listados
+- [ ] Comportamiento esperado y exclusiones claros
+- [ ] Comandos de test conocidos (`docs/TESTING_STRATEGY.md`)
+- [ ] Impacto seguridad/migraciones valorado o escalado

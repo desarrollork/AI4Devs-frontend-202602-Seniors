@@ -1,0 +1,31 @@
+---
+description: Prisma y PostgreSQL — migraciones e integridad.
+globs: ["backend/prisma/**"]
+alwaysApply: false
+---
+
+# Database
+
+## Propósito
+
+Cambios de esquema seguros y reversibles cuando sea posible.
+
+## Cuándo aplica
+
+`schema.prisma`, migraciones, seeds.
+
+## Instrucciones
+
+- Sin migraciones destructivas sin plan y backup.  
+- Índices y relaciones justificados en SPEC/tarea.  
+- Integridad referencial explícita.
+
+## Prohibiciones
+
+- Migraciones «de paso» en tareas no relacionadas.  
+- Datos sensibles en seeds commiteados sin anonimizar (**TODO** política).
+
+## Checklist
+
+- [ ] Plan de rollback / impacto  
+- [ ] Migración revisada en entorno local  

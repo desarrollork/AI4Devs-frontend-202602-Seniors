@@ -1,0 +1,5 @@
+- [ ] Diff revisado frente a task
+- [ ] `backend`: `npm run build` OK **TODO** lint cuando exista script
+- [ ] `backend`: `npm test` OK
+- [ ] `frontend`: `CI=true npm run build` OK antes de push sensible
+- [ ] Sin secretos ni `.env` en stage

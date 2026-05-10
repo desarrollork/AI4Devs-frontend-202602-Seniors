@@ -1,0 +1,32 @@
+---
+description: Calidad de código y diseño simple.
+globs: ["**/*"]
+alwaysApply: false
+---
+
+# Code quality
+
+## Propósito
+
+Código legible, tipado y mantenible.
+
+## Cuándo aplica
+
+Todo código nuevo o modificado.
+
+## Instrucciones
+
+- Simplicidad sobre abstracciones prematuras.  
+- TypeScript estricto donde exista; errores manejados explícitamente.  
+- Bajo acoplamiento; evitar duplicación innecesaria.
+
+## Prohibiciones
+
+- Refactor global no solicitado.  
+- Patrones «de conferencia» sin necesidad.
+
+## Checklist
+
+- [ ] Nombres claros  
+- [ ] Errores no silenciados sin motivo  
+- [ ] Sin dead code introducido  

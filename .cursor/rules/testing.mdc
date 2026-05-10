@@ -1,0 +1,30 @@
+---
+description: Tests obligatorios y política de calidad de pruebas.
+globs: ["**/*"]
+alwaysApply: false
+---
+
+# Testing
+
+## Propósito
+
+Cambios verificables y regresiones controladas.
+
+## Cuándo aplica
+
+Cambios en lógica, API o UI con comportamiento.
+
+## Instrucciones
+
+- Añadir o actualizar tests Jest acordes al cambio (`docs/TESTING_STRATEGY.md`).  
+- Ejecutar tests relevantes antes de dar por cerrado.
+
+## Prohibiciones
+
+- Ignorar tests fallidos.  
+- Eliminar tests sin sustituto o justificación en SPEC.
+
+## Checklist
+
+- [ ] Tests nuevos/actualizados  
+- [ ] Comandos documentados ejecutados  
