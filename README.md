@@ -346,3 +346,10 @@ Spec-driven development: no product implementation without a clear SPEC/task. Se
 - [.ai/PROJECT_AI_SETUP_REPORT.md](.ai/PROJECT_AI_SETUP_REPORT.md)
 - Comandos: build/test backend, `CI=true npm run build` en frontend, `scripts/validate-local.sh`
 
+---
+
+## Entrega ejercicio E10 (MJTR)
+
+- **Rama:** `frontend-mjtr` (iniciales Manuel Jesús Torralbo Rodríguez).
+- **Abrir Pull Request** contra `main`: [crear PR desde `frontend-mjtr`](https://github.com/desarrollork/AI4Devs-frontend-202602-Seniors/compare/main...frontend-mjtr?expand=1)
+- **Incluye:** código en `frontend/`; `prompts/prompts-iniciales.md` y `prompts/prompts.md` (réplica en `frontend/prompts/` para desarrollo).
