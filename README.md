@@ -351,5 +351,6 @@ Spec-driven development: no product implementation without a clear SPEC/task. Se
 ## Entrega ejercicio E10 (MJTR)
 
 - **Rama:** `frontend-mjtr` (iniciales Manuel Jesús Torralbo Rodríguez).
-- **Abrir Pull Request** contra `main`: [crear PR desde `frontend-mjtr`](https://github.com/desarrollork/AI4Devs-frontend-202602-Seniors/compare/main...frontend-mjtr?expand=1)
-- **Incluye:** código en `frontend/`; `prompts/prompts-iniciales.md` y `prompts/prompts.md` (réplica en `frontend/prompts/` para desarrollo).
+- **Pull Request:** [PR #1](https://github.com/desarrollork/AI4Devs-frontend-202602-Seniors/pull/1) — detalle y texto sugerido para la descripción: [docs/ENTREGA-E10-MJTR.md](docs/ENTREGA-E10-MJTR.md)
+- **Abrir / actualizar PR en GitHub:** [compare main...frontend-mjtr](https://github.com/desarrollork/AI4Devs-frontend-202602-Seniors/compare/main...frontend-mjtr?expand=1)
+- **Incluye:** código en `frontend/`; `prompts/prompts-iniciales.md` y `prompts/prompts.md` (réplica en `frontend/prompts/`).
