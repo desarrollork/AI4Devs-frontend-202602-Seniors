@@ -1,0 +1,3 @@
+- [ ] Validación local: `bash scripts/validate-local.sh` **o** CI verde en rama
+- [ ] Sin commits pendientes de documentación crítica acordada
+- [ ] Rama correcta y remoto destino confirmado

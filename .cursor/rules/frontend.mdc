@@ -1,0 +1,29 @@
+---
+description: Frontend React — componentes y UX.
+globs: ["frontend/**/*"]
+alwaysApply: false
+---
+
+# Frontend
+
+## Propósito
+
+UI mantenible y accesible.
+
+## Cuándo aplica
+
+`frontend/src/**`.
+
+## Instrucciones
+
+- Componentes pequeños; separar UI de llamadas API cuando tenga sentido.  
+- Estados carga / error / vacío; validación de formularios coherente con API.
+
+## Prohibiciones
+
+- Lógica de negocio crítica solo en cliente.
+
+## Checklist
+
+- [ ] Manejo de error/red  
+- [ ] Formularios validados  

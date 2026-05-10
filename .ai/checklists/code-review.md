@@ -1,0 +1,5 @@
+- [ ] Alcance coincide con task / SPEC
+- [ ] Errores y logs sin fugas sensibles
+- [ ] Tests proporcionales presentes y pasando
+- [ ] Dependencias nuevas justificadas y auditadas si aplica
+- [ ] Migraciones / datos valorados si tocó prisma

@@ -1,0 +1,32 @@
+---
+description: Implementación solo con SPEC y criterios de parada.
+globs: ["**/*"]
+alwaysApply: true
+---
+
+# Spec-driven development
+
+## Propósito
+
+Impedir código de producto sin requisitos claros.
+
+## Cuándo aplica
+
+Todo cambio funcional en `frontend/` o `backend/`.
+
+## Instrucciones
+
+- Tener SPEC o tarea con criterios de aceptación.  
+- Partir SPEC en tareas pequeñas en `docs/TASKS.md`.  
+- Actualizar docs si cambia el comportamiento acordado.
+
+## Prohibiciones
+
+- Implementar «a ojo».  
+- Mezclar varias historias en un mismo cambio sin plan.
+
+## Checklist
+
+- [ ] SPEC/tarea enlazada  
+- [ ] Alcance de archivos definido  
+- [ ] Criterios de aceptación comprobables  

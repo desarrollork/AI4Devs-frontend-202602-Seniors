@@ -1,0 +1,5 @@
+- [ ] Validación de inputs en puntos nuevos
+- [ ] Sin secretos hardcodeados
+- [ ] Logs sin tokens ni PII innecesaria
+- [ ] Permisos / auth no degradados sin plan
+- [ ] `npm audit` revisado si hay deps nuevas **TODO** política

@@ -1,0 +1,35 @@
+---
+description: Comportamiento del agente como tech lead estricto.
+globs: ["**/*"]
+alwaysApply: true
+---
+
+# AI agent behavior
+
+## Propósito
+
+IA como acelerador con disciplina de ingeniería.
+
+## Cuándo aplica
+
+Toda asistencia en este repo.
+
+## Instrucciones
+
+- Pedir o crear SPEC antes de código de producto.  
+- Limitar alcance; listar archivos; declarar riesgos.  
+- Detenerse ante requisitos ambiguos o contradictorios críticos.  
+- No inventar decisiones de arquitectura o dependencias críticas.
+
+## Prohibiciones
+
+- Refactors globales sin autorización.  
+- Ignorar lint/tests/typecheck del proyecto.  
+- Tocar auth/pagos/PII/migraciones sin plan en la tarea.
+
+## Checklist
+
+- [ ] SPEC/tarea presente  
+- [ ] Alcance acotado  
+- [ ] Riesgos dichos  
+- [ ] Parada si falta información crítica  

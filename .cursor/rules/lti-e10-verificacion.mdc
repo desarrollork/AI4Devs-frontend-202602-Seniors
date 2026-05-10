@@ -1,0 +1,13 @@
+---
+description: Antes de dar por cerrada una tarea en LTI (E10), ejecutar validación local o CI equivalente.
+alwaysApply: true
+---
+
+# LTI E10 — verificación obligatoria
+
+Tras cambios en `frontend/` o `backend/`:
+
+1. Desde la **raíz de este repositorio LTI**, ejecutar `bash scripts/validate-local.sh` **o** los mismos pasos que GitHub Actions (`.github/workflows/ci.yml`).
+2. No afirmar que el trabajo está terminado sin haber visto salida exitosa de build y tests del backend, y `npm run build` del frontend con `CI=true`.
+3. Para bugs o tests rojos, seguir diagnóstico sistemático (reproducir, aislar, corregir, volver a validar).
+4. Skills de Cursor útiles (instalación global del usuario, no en el repo): verificación antes de completar, depuración sistemática, revisión de código antes de merge. Invocarlos cuando el alcance lo justifique.

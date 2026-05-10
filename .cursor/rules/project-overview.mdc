@@ -1,0 +1,27 @@
+---
+description: Contexto LTI y límites del agente (raíz del repo).
+globs: ["**/*"]
+alwaysApply: true
+---
+
+# Project overview
+
+## Propósito
+
+Repositorio **LTI** (Talent Tracking System): frontend React, backend Express/TypeScript/Prisma, PostgreSQL. Documentación de proceso en `docs/`; flujo IA en `docs/AI_WORKFLOW.md`.
+
+## Prioridad de documentación
+
+1. `docs/PROJECT_SPEC.md`, `docs/PRODUCT_REQUIREMENTS.md`, `especificacion-inicial.md`  
+2. `docs/ARCHITECTURE.md`, `docs/TASKS.md`  
+3. ADRs en `docs/adr/`
+
+## Uso de SPEC
+
+Ninguna implementación de producto sin SPEC/tarea acotada.
+
+## Límites del agente
+
+- Alcance = lista de archivos de la tarea.  
+- Validación: `bash scripts/validate-local.sh` **o** pasos de `.github/workflows/ci.yml`.  
+- No afirmar trabajo terminado sin salida exitosa de build/tests pertinentes.

@@ -13,14 +13,26 @@ describe('getCandidatesByPosition', () => {
     } as unknown as Response;
 
     (getCandidatesByPositionService as jest.Mock).mockResolvedValue([
-      { fullName: 'John Doe', currentInterviewStep: 'Technical Interview', averageScore: 4 },
+      {
+        fullName: 'John Doe',
+        currentInterviewStep: 'Technical Interview',
+        averageScore: 4,
+        id: 42,
+        applicationId: 1,
+      },
     ]);
 
     await getCandidatesByPosition(req, res);
 
     expect(res.status).toHaveBeenCalledWith(200);
     expect(res.json).toHaveBeenCalledWith([
-      { fullName: 'John Doe', currentInterviewStep: 'Technical Interview', averageScore: 4 },
+      {
+        fullName: 'John Doe',
+        currentInterviewStep: 'Technical Interview',
+        averageScore: 4,
+        id: 42,
+        applicationId: 1,
+      },
     ]);
   });
 });

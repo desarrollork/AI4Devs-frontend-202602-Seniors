@@ -1,0 +1,32 @@
+---
+description: Seguridad en API, datos y dependencias.
+globs: ["backend/**", "frontend/**"]
+alwaysApply: false
+---
+
+# Security
+
+## Propósito
+
+Reducir superficie de ataque y fugas de datos.
+
+## Cuándo aplica
+
+Código que maneje entrada usuario, archivos, DB o auth.
+
+## Instrucciones
+
+- Validar inputs; no loguear secretos ni PII innecesaria.  
+- Revisar impacto de nuevas dependencias (`npm audit` manual).  
+- Seguir `docs/SECURITY.md`.
+
+## Prohibiciones
+
+- Cambiar auth, permisos o migraciones sin plan en la tarea.  
+- Hardcodear secretos.
+
+## Checklist
+
+- [ ] Entradas validadas  
+- [ ] Sin secretos en código  
+- [ ] Errores sin datos internos en prod (según política)  
